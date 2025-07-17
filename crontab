@@ -1,0 +1,2 @@
+*/15 * * * * curl -sfSLR {-o,-z}/etc/bird/dn42/roa_dn42.conf https://dn42.burble.com/roa/dn42_roa_bird2_4.conf && birdc configure > /dev/null
+*/15 * * * * curl -sfSLR {-o,-z}/etc/bird/dn42/roa_dn42_v6.conf https://dn42.burble.com/roa/dn42_roa_bird2_6.conf && birdc configure > /dev/null
