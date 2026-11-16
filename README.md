@@ -1,1 +1,2 @@
-# Bird2 Config
+# AS198527 的 BGP 相关配置
+
